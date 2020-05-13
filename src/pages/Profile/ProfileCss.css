@@ -1,0 +1,56 @@
+.wrap-black{
+    background-color: silver;
+    height: 1000px;
+    padding:0;
+    position: absolute;
+    top: 0;
+    opacity: 0.8;
+}
+.wrap-profile{
+    padding: 0;
+}
+.profile-left{
+    height: 320px;
+    background: white;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.profile-right {
+    height:  500px;
+    background-color: white;
+    border-radius: 5px;
+}
+.row-profile{
+    margin-top: 150px;
+}
+
+.list-profile{
+    flex-direction: column;
+}
+
+.row-infor-profile{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.list-profile{
+    margin-top: 10px;
+    border-top: 1px solid black;
+    padding-top: 30px;
+}
+.list-profile>li{
+    margin-bottom: 20px;
+}
+a.li-profile.active{
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,.1);
+    color: white;
+    background: black;
+}
+
+a.li-profile{
+    color: black;
+}
+
+table.table.table-striped.table-inverse.table-responsive{
+    margin-top: 20px;
+}

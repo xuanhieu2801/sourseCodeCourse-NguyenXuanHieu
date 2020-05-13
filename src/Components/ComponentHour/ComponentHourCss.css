@@ -1,0 +1,12 @@
+.wrap-componentHour{
+    background-image: url(http://templates.stillidea.net/crazyhour/images/parallax5.jpg);
+    height: 400px;
+    background-attachment: fixed;
+}
+.ant-statistic{
+    background: papayawhip;
+}
+.ant-row{
+    margin-top: 35px;
+    justify-content: center;
+}

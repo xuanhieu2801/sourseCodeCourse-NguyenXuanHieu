@@ -1,0 +1,116 @@
+.wrap-eventpage{
+    background-image: url("http://wpthemecube.com/eventr_html/img/slide1.jpg");
+    background-repeat: no-repeat;
+    height: 450px;
+    filter: brightness(0.5);
+    margin-top: 70px;
+}
+.title-pageEvents{
+    position: absolute;
+    top: 300px;
+}
+.h2-eventsPage{
+    font-size: 70px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #fff;
+}
+.h4-eventsPage{
+    color: white;
+}
+.wrap-content-pageEvents{
+    position: relative;
+    margin-top: 100px;
+    text-align: left;
+    padding: 0 !important;
+}
+
+.events-row{
+    display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.img-events{
+    position: relative;
+}
+.img-events::before{
+    background: white;
+}
+.img-events:hover::before{
+    content: "";
+    position: absolute;
+    top: 8px;
+    background: yellow;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3;
+    cursor: pointer;
+
+}
+.img-events:hover::after{
+    content: "Xem thêm ...";
+    position: absolute;
+    bottom: 20px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+   right:8px;
+
+
+}
+/* .column>img::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: yellow;
+
+} */
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+   
+  }
+  
+  a.link-news:hover{
+  color: blue !important;
+}
+
+
+@media screen and (max-width: 1024px){
+    .col-right-news{
+      padding-left: 80px;
+    }
+}
+@media screen and (max-width: 736px){
+  .style-img{
+    height:auto !important;
+  }
+  .col-left-news>img{
+    width: 100px  !important;
+    height: 80px !important;
+    
+  }
+  .col-left-news{
+    width: auto !important;
+  }
+  .col-right-news{
+    padding: 0 !important;
+    width: 60%;
+  }
+  .col-right-news>p{
+    display: none;
+  }
+
+  .row-tintuc{
+    margin-bottom: 20px;
+  }
+}

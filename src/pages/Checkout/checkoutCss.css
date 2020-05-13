@@ -1,0 +1,65 @@
+.wrap-checkout {
+    background-image: url(http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/varty/74fd7309-header-bg_1hc0nm1hc0nm00000001o.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    filter: brightness(0.5);
+    margin-top: 70px;
+}
+.col-right-checkout{
+    margin-top: 80px;
+}
+.fieldset .field .field-input-wrapper .field-input {
+    box-shadow: 0 0 0 1px #d9d9d9;
+    transition: all 0.2s ease-out;
+    background-color: white;
+    color: #333333;
+    border-radius: 4px;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.94em 2.8em 0.94em 0.8em;
+    word-break: normal;
+    margin-top: 15px;
+}
+
+.fieldset .field .field-input-wrapper .field-input:focus{
+    box-shadow: 0 0 0 2px #338dbc;
+    outline: none;
+}
+.section-header{
+    margin-top: 50px;
+}
+.step-footer{
+    margin-top: 30px;
+}
+.btn-checkout{
+    display: inline-block;
+    border-radius: 4px;
+    font-weight: 500;
+    padding: 1.4em 1.7em;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    position: relative;
+    background: #338dbc;
+    color: white;
+}
+.icon{
+    fill: #338dbc;
+    margin-right: 0.25em;
+    transform: translateX(0);
+}
+.span-wrap-icon{
+    fill: #338dbc;
+    transform: translateX(0);
+    display: inline-block;
+}
+.span-wrap-icon:hover{
+    transform:translateX(-20px);
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    cursor: pointer;
+}

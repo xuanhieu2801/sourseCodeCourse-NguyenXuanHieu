@@ -1,0 +1,25 @@
+.page-courseDanhMuc{
+    background-image: url("https://grandetest.com/theme/edumy-html/images/background/inner-pagebg.jpg");
+    background-repeat: no-repeat;
+    height: 220px;
+    margin-top: -1px;
+    position: absolute;
+    top:0;
+    background-position-y: bottom;
+    padding-top: 200px;
+}
+.page-courseDanhMuc::before{
+        content: "";
+        background-color: floralwhite;
+        height: 100%;
+        left: 0px;
+        opacity: 0.8;
+        position: absolute;
+        right: 0;
+        top: 0px;
+
+}
+
+.h1-page-courseDanhMuc{
+    margin-top: 50px;
+}

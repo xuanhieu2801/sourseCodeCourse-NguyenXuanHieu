@@ -1,0 +1,80 @@
+.wrap-pageCourses{
+    background-image:url('https://mb2themes.com/themes/new-learning/pluginfile.php/1/local_mb2slides/attachment/3/03_comp_20170917-compressor.jpg');
+    background-repeat: no-repeat;
+    height: 450px;
+    filter: brightness(0.5);
+    margin-top: 70px;
+}
+.title-pageCourses{
+    position: absolute;
+    top: 300px;
+}
+.h2-coursesPage{
+    font-size: 70px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #fff;
+}
+.h4-coursePage{
+    color: white;
+}
+.wrap-content-pageCourses{
+    position: relative;
+    margin-top: 100px;
+    text-align: left;
+    padding: 0 !important;
+}
+.color-dark.pr10{
+padding-right: 10px;
+color: #0a0a0a !important
+}
+
+.mt10{
+    font-size: 15px;
+
+}
+#mySelect{
+    height: 48px;
+}
+.cardItem-coures{
+    filter: drop-shadow(1px 1px 4px black);
+}
+
+.page-link{
+    color: black;
+}
+.selected_filter_widget{
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(237, 239, 247);
+    border-radius: 5px;
+    background-color: rgba(243, 243, 246, 0);
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    margin-left: 90px;
+}
+
+
+@media screen and (max-width: 736px){
+    .columm-right{
+        display: none !important;
+    }
+    .ant-breadcrumb {
+        display: none;
+    }
+
+    .row{
+        margin: 0 !important;
+    }
+    .result-col-khoahoc{
+        padding: 0 !important;
+        padding-left: 10px !important;
+    }
+    .candidate_revew_select.text-right.col-md-4.col-xs-12.col-sm-12{
+        text-align: left !important;
+        margin-bottom: 20px;
+    }
+
+}
+

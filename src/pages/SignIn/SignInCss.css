@@ -1,0 +1,39 @@
+.wrap-signin{
+    /* background-image: url("../../Assets/Imgs/background-signin.jpg");
+    background-size: contain; */
+    height: 780px;
+    /* background-position-y: bottom; */
+    position: absolute;
+    top: 0;
+}
+
+.space-div{
+    margin-top: 120px;
+}
+.ant-col.ant-col-16.ant-form-item-control{
+    margin: 0 auto;
+}
+.row-signin{
+    justify-content: center;
+}
+.col-signin{
+    background-color: black;
+    opacity: 0.9;
+    padding-bottom: 50px;
+}
+button.ant-btn.ant-btn-primary{
+    background-color: green;
+    border: green;
+}
+.ant-row.ant-form-item{
+    margin-bottom:40px;
+}
+#Car{
+	animation: 1.5s car infinite;
+	
+}
+@keyframes car {
+  0%   {transform: translateY(0);}
+  50%  {transform: translateY(-10px);}
+  100% {transform: translateY(0);}
+}

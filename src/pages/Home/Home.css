@@ -1,0 +1,128 @@
+.wrap-header{
+    background-image: url("../../Assets/Imgs/img-background.jpg");
+    width: 100%;
+    height: 750px;
+    background-repeat: round;
+    background-size: auto;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+}
+.space-Div{
+    width: 100%;
+    height: 100px;
+}
+#spaceDiv{
+    margin-top: 37%;
+}
+.row-title{
+    margin-right: 0;
+    margin-left: 10%;
+}
+h1.title-h1{
+    text-align: left;
+    padding-top: 16%;
+    width: 100%;
+    padding-left: 294px;
+}
+.title-bottom{
+    width: 100%;
+}
+.circle{
+    margin: 0 auto;
+    height: 70px;
+    width: 43px;
+    border: 1px solid;
+    border-radius: 29%;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+.down-button{
+    animation: 1s down-ani ease infinite;
+    
+}
+
+
+@keyframes down-ani {
+    from {transform: translateY(0);}
+  to {transform: translateY(40px);}
+}
+
+
+
+/*infor content*/
+
+
+.infor-content{
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.infor-col{
+    border: 1px solid #26394b;
+    text-align: left;
+    background-color: #26394b;
+    color: white;
+    
+    
+}
+/* .infor-col:hover{
+    box-shadow: 5px 5px 15px 5px #0000001f;
+    transition: all 0.5s ease;
+    -moz-transform: scale(1.009);
+-webkit-transform: scale(1.009);
+-o-transform: scale(1.009);
+-ms-transform: scale(1.009);
+transform: scale(1.009);
+} */
+.right-col{
+    padding-top: 20px;
+    padding-right: 10px;
+}
+.right-row{
+    background: white;
+    border: none;
+}
+.number-dv{
+    padding-bottom: 20px;
+}
+
+
+/* /responsive */
+
+@media screen and (max-width: 1366px) {
+    h1.title-h1{
+        padding-left: 125px !important;
+    }
+    #spaceDiv {
+        margin-top: 60% !important;
+    }
+}
+@media screen and (max-width: 736px) {
+    .col-sm-5{
+        width: 80% !important;
+    }
+    #spaceDiv {
+        margin-top: 127% !important;
+    }
+
+    .col-md-4.infor-col{
+        margin-right: 0 !important;
+    }
+    .col-md-4.col-hour {
+        display: none;
+    }
+    .row.row-componentHour{
+        padding-top: 0 !important;
+    }
+    .title-hour{
+        font-size: 30px;
+    }
+    h3.title-danhmucphobien{
+        text-align: left !important;
+       margin-left: 0 !important;
+        font-weight: bolder;
+        font-size: 30px !important;
+    }
+}

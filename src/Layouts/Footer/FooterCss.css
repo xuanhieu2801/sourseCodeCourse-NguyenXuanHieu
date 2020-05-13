@@ -1,0 +1,33 @@
+ul.list-unstyled>li>a{
+    color: whitesmoke !important;
+}
+.footer_contact_widget>p{
+    color: whitesmoke !important;
+}
+.footer_middle_area{
+    background-color: #151515;
+    border-top: 0.5px solid whitesmoke;
+    padding-top: 20px;
+}
+.logo-widget.home1{
+    color: white;
+}
+.footer_menu_widget>ul>li>a{
+    color: whitesmoke;
+}
+.footer_bottom_area{
+    background: black;
+    padding: 25px 0;
+}
+.copyright-widget.text-center>p{
+        color: whitesmoke;
+}
+
+.ant-back-top{
+    right: 35px !important;
+}
+
+
+.hidden {
+    display: none;
+}

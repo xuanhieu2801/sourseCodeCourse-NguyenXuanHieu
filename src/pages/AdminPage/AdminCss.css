@@ -1,0 +1,61 @@
+a.nav-link.active{
+    color: #495057;
+    background-color:transparent !important;
+    border-color:none !important;
+    width: 100% !important;
+}
+
+a.nav-link{
+    color: #495057;
+    background-color:transparent !important;
+    border-color:none !important;
+    width: 100% !important;
+}
+
+a.nav-link.active {
+    border: none;
+}
+.nav-link:hover{
+    border: none;
+}
+.icon.bg-gradient-warning.text-white.rounded-circle.icon-shape{
+    background: linear-gradient(50deg, #ffab00, #fff800) !important;
+    width:50px;
+    height : 50px
+}
+.icon.bg-gradient-primary.text-white.rounded-circle.icon-shape{
+    background: linear-gradient(50deg, #6e00ff, #b0f) !important;
+    width: 50px;
+    height: 50px;
+}
+.icon.bg-gradient-danger.text-white.rounded-circle.icon-shape{
+    background: linear-gradient(50deg, #ff5630, #ff9430) !important;
+    width: 50px;
+    height: 50px;
+}
+.table td{
+    text-align: left;
+}
+.ant-layout-sider-children{
+    height: 400px;
+}
+aside.site-layout-background.ant-layout-sider.ant-layout-sider-dark{
+    background-color: white !important;
+}
+
+.ant-row.ant-form-item{
+    margin: 10px 0;
+}
+
+.row-user{
+    justify-content: space-between;
+}
+
+.row-table-user{
+    margin-top: 50px;
+}
+
+
+.displayModal{
+    display: none !important;
+}

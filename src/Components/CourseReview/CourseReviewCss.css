@@ -1,0 +1,15 @@
+.line-style{
+    background-blend-mode: darken;
+}
+.wrap-courseReview{
+    background-image: url(https://grandetest.com/theme/edumy-html/images/background/8.jpg);
+    background-position-y: center;
+    background-size: cover;
+    height: 630px;
+    position: relative;
+    filter: brightness(0.5);
+   }
+   .content-courseReview{
+       position: relative;
+       bottom: 600px;
+   }

@@ -1,0 +1,28 @@
+.courseItem-body::before{
+    position: absolute;
+    top: 180px;
+    /* left: 0; */
+    left: 0px;
+    /* right: 0; */
+    width: 100%;
+    height: 8px;
+    content: "";
+    background: lightgreen;
+}
+.courseItem-body::after{
+    position: absolute;
+    top: 281px;
+    left: 0px;
+    width: 100%;
+    height: 29px;
+    color: black;
+    content: "100% Trực tuyến ";
+    background: lightgreen;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 4px;
+}
+.Detail-courseItem{
+    width: 280px;
+   height:300px
+}

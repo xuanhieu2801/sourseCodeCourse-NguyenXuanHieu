@@ -1,0 +1,51 @@
+.page-about{
+    background-image: url("http://wpthemecube.com/eventr2/wp-content/uploads/2017/12/bg-venue.png?id=771");
+    background-repeat: no-repeat;
+    height: 450px;
+    filter: brightness(0.5);
+    margin-top: 70px;
+    background-size: cover !important;
+}
+.title-pageAbout{
+    position: absolute;
+    top: 300px;
+}
+.h2-aboutPage{
+    font-size: 70px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #fff;
+}
+.content-speaker{
+    margin-bottom: 20px;
+}
+.img-responsive{
+    filter: brightness(0.5);
+}
+.img-responsive:hover{
+    filter: brightness(1);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.text-center>h4{
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+.text-center>h4::after{
+    background-color: #fac42b;
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.company{
+    color: #999999;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+}

@@ -1,0 +1,8 @@
+.card-categoriesTop:hover{
+    filter: grayscale(0) !important;
+    cursor: pointer;
+    box-shadow: 2px 4px 6px #000000a6;
+    transition: 0.3s all ease-in-out;
+    transform: scale(1.02) !important;
+}
+

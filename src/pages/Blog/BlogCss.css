@@ -1,0 +1,73 @@
+.wrap-blog{
+        background-image: url("https://2e0b0s15qhzp3wugpd20704u-wpengine.netdna-ssl.com/wp-content/uploads/2018/12/fw2.jpg?id=42");
+        background-repeat: no-repeat !important;
+        height: 600px;
+        position: absolute;
+        top: 0;
+        background-position-x: right;
+    }
+.wrap-blog::before{
+    content: "";
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.3;
+}
+.title-blog{
+    position: absolute;
+    top: 280px;
+    left: 45%;
+}
+.h2-blog{
+    font-size: 70px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #fff;
+}
+.div-space{
+   padding-top: 600px;
+}
+.blog-area{
+    position: relative;
+}
+
+.blog-area>.row>.col-4{
+    margin-top: 50px;
+}
+.blog-area>.row>.col-4>.card>.card-body{
+    text-align: left;
+}
+
+.blog-area>.row>.col-4>.card>img{
+    filter: brightness(0.7);
+}
+.blog-area>.row>.col-4>.card>img:hover{
+    filter: brightness(1) ;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.selectorReadmore{
+    display: inline-block;
+    text-decoration: none;
+    transform: translateX(0);
+    float: right;
+    padding-right: 50px;
+}
+.selectorReadmore:hover{
+    transform: translateX(20px);
+    text-decoration: underline !important;
+    transition: ease-in-out 0.3s all ;
+    
+}
+@media screen and (max-width: 736px){
+    .title-blog{
+        left: 31% !important;
+    }
+    .col-blog{
+        margin-bottom: 20px;
+    }
+}
