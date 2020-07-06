@@ -17,7 +17,7 @@ import TinTucComponent from '../../Components/TinTucComponent/index';
 import Footer from '../../Layouts/Footer/index' ;
 import Preload  from '../../Components/PreloadComponent/index';
 import WOW from 'wowjs';
-import _ from 'lodash';
+import _, { isEmpty } from 'lodash';
 
 const { Search } = Input;
 
@@ -37,7 +37,8 @@ const { Search } = Input;
 
     componentDidMount(){
         this.props.dispatch(CourseAction);
-        const dataLocalCourseReviews = localStorage.getItem('Course');
+        let dataLocalCourseReviews = []
+       {isEmpty(localStorage.getItem('Course'))?dataLocalCourseReviews =[]: dataLocalCourseReviews = localStorage.getItem('Course');}
         const dataReviews = JSON.parse(dataLocalCourseReviews).reverse();
         this.setState({
             dataReviewCourse : dataReviews
